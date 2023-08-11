@@ -1,4 +1,4 @@
-﻿using Qistas.QAnalyzer;
+﻿using QAnalyzer;
 using static Qistas.QFunctions;
 namespace QExamples
 {

@@ -1,7 +1,6 @@
-﻿
+﻿using QAnalyzer;
 using Qistas;
-using Qistas.QAnalyzer;
-using Qistas.QistasLinks;
+using QistasLinks;
 using System.Dynamic;
 using static Qistas.QFunctions;
 
@@ -10,7 +9,7 @@ namespace QExamples
     public class QLinksEXAMPLES
     {
 
-        enum msg { router = 0, internte = 1, idk = -1 }
+        enum Msg { router = 0, internte = 1, idk = -1 }
         public static void Example1()
         {
 
@@ -26,8 +25,8 @@ namespace QExamples
 
                 linksPatterns = QLinksPattern.Create(
 
-                               QLinksPattern.Between("<", ">", (int)msg.router),
-                                 QLinksPattern.EndsWith("\n", (int)msg.internte)
+                               QLinksPattern.Between("<", ">", (int)Msg.router),
+                                 QLinksPattern.EndsWith("\n", (int)Msg.internte)
                                ),
             };
             link.Init();
@@ -35,7 +34,6 @@ namespace QExamples
 
             Echo(link.GetStatus());
 
-            link.SerializerAdd(< pattren >,< id >)
 
             // get data directery if no using Serializer.
             link.JunkData += Link_JunkData;
@@ -49,16 +47,13 @@ namespace QExamples
             void Link_JunkData(string JunkData)
             {
                 Echo("Junk: " + JunkData);
-
             }
 
 
             link.SerializerInit()
-                   .AddPattern("#code# #key#:##values##", id: 1)
-                   .AddPattern("#code# #key#:#value#", id: 2)
-
-                   .AddPattern("#operation# ##type##", id: 3)
-                   .AddPattern("##temps##", id: 4);
+                   .AddPattern("#code# #key#:#value#", id: 1)
+                   .AddPattern("#operation# ##type##", id: 2)
+                   .AddPattern("##temps##", id: 3);
 
 
             link.Deserialized += Link_Deserialized;
@@ -86,13 +81,9 @@ namespace QExamples
                         Echo(obj.id);
                         break;
                     }
-
             }
 
-            while (true)
-            {
-
-            }
+            while (true) ;
 
         }
     }

@@ -1,5 +1,5 @@
 ﻿using System.Text.RegularExpressions;
-namespace Qistas.QAnalyzer
+namespace QAnalyzer
 {
     public class QSerializer
     {

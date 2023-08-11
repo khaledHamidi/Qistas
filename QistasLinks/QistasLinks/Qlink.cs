@@ -1,8 +1,8 @@
-﻿using Qistas.QAnalyzer;
-using Qistas.QistasLinks.Base;
+﻿using QAnalyzer;
+using QistasLinks.Base;
 using System.IO.Ports;
 
-namespace Qistas.QistasLinks
+namespace QistasLinks
 {
     public class Qlink : QlinkBase
     {

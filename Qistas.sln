@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qistas.QistasLinks", "QistasLinks\QistasLinks\Qistas.QistasLinks.csproj", "{633E5D18-1603-4F4F-B72A-0BC308ED44FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QistasLinks", "QistasLinks\QistasLinks\QistasLinks.csproj", "{633E5D18-1603-4F4F-B72A-0BC308ED44FB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qistas.QAnalyzer", "QAnalyzer\Qistas.QAnalyzer.csproj", "{7144D05C-5B5A-4D30-B406-641CFC6F62DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QAnalyzer", "QAnalyzer\QAnalyzer.csproj", "{7144D05C-5B5A-4D30-B406-641CFC6F62DF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QExamples", "Test\QExamples.csproj", "{F5040904-5575-496E-92B7-EB3C7FDAD9C5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qistas.Common", "Common\Qistas.Common.csproj", "{1BC875BB-1B88-40DE-88EF-615DC0566386}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qistas", "Common\Qistas.csproj", "{1BC875BB-1B88-40DE-88EF-615DC0566386}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

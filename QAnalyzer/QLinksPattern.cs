@@ -1,4 +1,4 @@
-﻿namespace Qistas.QAnalyzer
+﻿namespace QAnalyzer
 {
     public struct QLinksPattern
     {

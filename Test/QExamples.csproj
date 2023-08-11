@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Common\Qistas.Common.csproj" />
-    <ProjectReference Include="..\QistasLinks\QistasLinks\Qistas.QistasLinks.csproj" />
+    <ProjectReference Include="..\Common\Qistas.csproj" />
+    <ProjectReference Include="..\QistasLinks\QistasLinks\QistasLinks.csproj" />
   </ItemGroup>
 
 </Project>

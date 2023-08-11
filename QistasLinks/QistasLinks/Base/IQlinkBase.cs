@@ -1,6 +1,6 @@
 ﻿using System.IO.Ports;
 
-namespace Qistas.QistasLinks.Base
+namespace QistasLinks.Base
 {
     public interface IQlinkBase
     {

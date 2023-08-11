@@ -36,7 +36,7 @@ and this project is a library that can be added to projects to establish communi
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\QAnalyzer\Qistas.QAnalyzer.csproj" />
+    <ProjectReference Include="..\..\QAnalyzer\QAnalyzer.csproj" />
   </ItemGroup>
 
   <ItemGroup>
